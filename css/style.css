@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-size: 20px; /* Font size for normal content */
+}
+
+h1 {
+    color: #333;
+    font-size: 30px; /* Font size for heading */
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ae0000d3;
+}
+
+#studentInfo {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+#bill {
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Colors for Extra Attention */
+#size {
+    background-color: #ffd700;
+}
+
+#crust {
+    background-color: #ffa07a;
+}
+
+#Pineapple, #mushrooms, #greenPepper, #redPepper, #blackOlives, #greenOlives, #tomato, #onions {
+    background-color: #000000; /* Sky Blue */
+}

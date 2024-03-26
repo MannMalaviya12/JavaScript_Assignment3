@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pizza Maker</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <h1>Jasuben Shah Pizza</h1>
+    <form id="pizzaForm">
+        <label for="size">Size:</label>
+        <select id="size" name="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select><br>
+        
+        <label for="crust">Crust:</label>
+        <select id="crust" name="crust">
+            <option value="thin">Thin</option>
+            <option value="thick">Thick</option>
+            <option value="stuffed">Stuffed</option>
+        </select><br>
+        
+        <label>Toppings:</label><br>
+        <input type="checkbox" id="Pineapple" name="toppings" value="Pineapple">
+        <label for="Pineapple">Pineapples</label><br>
+        <input type="checkbox" id="mushrooms" name="toppings" value="mushrooms">
+        <label for="mushrooms">Mushrooms</label><br>
+        <input type="checkbox" id="greenPepper" name="toppings" value="green pepper">
+        <label for="greenPepper">Green Peppers</label><br>
+        <input type="checkbox" id="redPepper" name="toppings" value="red pepper">
+        <label for="redPepper">Red Peppers</label><br>
+        <input type="checkbox" id="blackOlives" name="toppings" value="black olives">
+        <label for="blackOlives">Black Olives</label><br>
+        <input type="checkbox" id="greenOlives" name="toppings" value="green olives">
+        <label for="greenOlives">Green Olives</label><br>
+        <input type="checkbox" id="tomato" name="toppings" value="tomato">
+        <label for="tomato">Tomato</label><br>
+        <input type="checkbox" id="onions" name="toppings" value="onions">
+        <label for="onions">Onions</label><br>
+        
+        <button type="button" onclick="orderPizza()">Order</button>
+    </form>
+    <div id="studentInfo" class="hidden">
+        <p>Student Number: 200553410</p>
+        <p>Name: Mann Malaviya</p>
+    </div>
+    <div id="bill"></div>
+
+</body>
+</html>
